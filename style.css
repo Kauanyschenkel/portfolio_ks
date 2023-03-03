@@ -1,0 +1,539 @@
+@import url('https://fonts.googleapis.com/css2?family=Tilt+Warp&display=swap');
+
+.logo{
+    position: relative;
+    font-size: 20px;
+    margin-left: 20px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    top: 20px;
+    text-decoration: none;
+    color: #00a0e4;
+}
+
+/*pagina inicial*/
+body{
+    background-color: #1f1f38;
+    background-image: url(logo.svg);
+    background-repeat: no-repeat;
+    background-size: 1700px;
+    background-position: -30% -100px;
+  
+}
+.principal{
+    position: fixed;
+    top: 0;
+    left: 0;
+    height: 50px;
+    width: 100%;
+    z-index: 999px;
+    box-shadow: 0px 0px 6px 0px rgba(0, 0, 0, 0.5);
+
+}
+ .principalItens .itens{
+   display: flex;
+   list-style: none;
+   margin-left: 600px;
+   margin-top: 20px;
+ 
+ }
+
+li a{
+    display: flex;
+    color: white;
+    margin-left: 50px;
+    text-transform: uppercase;
+    text-decoration: none;
+    font-family: 'Times New Roman', Times, serif;
+    transition: .5s ease-in-out;
+    
+}
+li a:hover{
+    text-decoration: underline;
+    font-size: 18px ;
+    color: #8C22EB;
+}
+
+
+.cabecalho{
+    margin-left: 100px ;
+}
+h1{
+    display: flex;
+    font-family: 'Tilt Warp', sans-serif;
+    font-size: 50px;
+    color: #8C22EB;
+}
+h2{
+   
+    font-family: 'Open Sans',sans-serif;
+    font-weight: normal;
+    font-size: 16px;
+    margin-top: 5px;
+    color: white;
+}
+h3{
+    display: flex;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: normal;
+    font-size: 20px;
+    margin-top: 200px;
+    color: white;
+}
+.social_media{
+   display: flex;
+   margin-top: 30px;
+   
+}
+
+  .social_media_itens,.social_media_itens1{
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    font-size: 20px;
+    font-family: 'Open Sans',sans-serif;
+    padding: 1rem 3rem;
+    margin-left: 10px;
+    border: 1px solid white;
+    display: flex;
+    transition: .5s ease-in-out;
+}
+
+.social_media_itens1{
+    background-color: #8C22EB;
+    transition: .5s ease-in-out;
+
+}
+.social_media_itens:hover{
+    background-color: #8C22EB;
+    text-decoration: underline;
+}
+
+.social_media_itens1:hover{
+    background-color: transparent;
+    text-decoration: underline;
+}
+
+/*sobre mim*/
+.sobremim{
+    background-color:#2D2F3F;
+    background-image: url(avatar.svg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position-x: 300px;
+    height: 900px;
+    margin:0;
+   
+    margin-top: 200px;
+
+}
+.textoPrincipal{
+    margin-left: 100px;
+}
+  
+.titulo{
+    padding: 20% 10px 5px;
+    font-weight: normal;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 40px;
+    color: #8C22EB;
+    
+}
+
+.text{
+    display: flex;
+    word-spacing: 5px;
+    line-height: 30px;
+    color: white;
+    font-family: 'Open Sans',sans-serif;
+    font-weight: bold;
+    font-size: 20px;
+    width: 550px;
+
+}
+
+
+/*Skills*/
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.skills{
+    color: #ffffff;
+    background-color: #1f1f38;
+    font-family: sans-serif;
+}
+
+.tituloSkills{
+    text-align: center;
+    padding: 8rem 0;
+    font-family: 'Tilt Warp', sans-serif;
+    font-size: 30px;
+    
+}
+
+.skills{
+    display: flex;
+    justify-content: space-around;
+    position: relative;
+    padding: 2rem;
+    flex-wrap: wrap;
+}
+
+.conteudo{
+    width: 50%;
+}
+
+.conteudo ul .item{
+    height: .4rem;
+    position:relative;
+    list-style: none;
+    border-radius: 10px;
+    margin: 2rem 0;
+    
+}
+
+.conteudo ul .html {
+    width: 50%;
+    background-color: #e54c21;
+    animation-name: barra1;
+    animation-duration: 4s;
+}
+
+@keyframes barra1{
+    from{
+        width: 0;
+    }
+    to{
+        width: 50%;
+    }
+}
+.conteudo ul .css {
+    width: 50%;
+    background-color: #00a0e4;
+    animation-name: barra2;
+    animation-duration: 4s;
+    
+}
+
+.conteudo ul .js {
+    width: 100%;
+    background-color: yellow;
+    animation-name: barra3;
+    animation-duration: 4s;
+}
+
+.conteudo ul .git {
+    width: 100%;
+    background-color: #7952b3;
+    animation-name: barra3;
+    animation-duration: 4s;
+}
+
+
+.conteudo ul .reactjs {
+    width: 100%;
+    background-color: #61dafb;
+    animation-name: barra3;
+    animation-duration: 4s;
+}
+
+@keyframes barra2{
+    from{
+        width: 0;
+    }
+    to{
+        width: 50%;
+    }
+}
+
+
+@keyframes barra3{
+    from{
+        width: 0;
+    }
+    to{
+        width: 100%;
+    }
+}
+
+.conteudo ul .github {
+    width: 100%;
+    background-color: #7952b3;
+    animation-name: barra3;
+    animation-duration: 4s;
+}
+.itensText{
+    position: absolute;
+    bottom:.6rem ;
+    left: 0;
+}
+
+.percentage {
+    position: absolute;
+    bottom: .6rem;
+    right: 0;
+}
+
+/*Hobbies*/
+.hobbies{
+    height: 300px;
+ 
+}
+.principalHobbies{
+    text-align: center;
+    margin-left: 30px;
+    padding: 8rem 0;
+    font-family: 'Tilt Warp', sans-serif;
+    font-size: 30px;
+    margin-top: 100px;
+    
+}
+img{
+    width: 150px;
+    margin-left: 10px;
+    filter: grayscale(100%);
+    transition: all 400ms;
+}
+
+img:hover{
+    width: 160px;
+    filter: grayscale(0);
+}
+div.box {
+	display: inline-block;
+    
+}
+
+.hobbies{
+    margin-left: 300px;
+}
+
+p{
+    display: flex;
+    margin-left: 60px;
+    color: white;
+}
+
+.cozinhar{
+    margin-left: 50px;
+}
+.volei{
+    margin-left: 70px;
+}
+
+
+
+/*PROJETOS*/
+
+.tituloProjetos{
+    text-align: center;
+    margin-left: 30px;
+    padding: 8rem 0;
+    font-family: 'Tilt Warp', sans-serif;
+    font-size: 30px;
+}
+.projetos{
+    display: flex;
+    justify-content: space-around;
+    padding: 30px 100px 100px 150px ;
+}
+.projetoCard1{
+    border: 2px solid;
+    border-color: gray;
+    padding: 30px 100px 30px 30px ;
+    transition: all 400ms ease;
+}
+
+.projetoCard1:hover{
+    border-color: #FF914D;
+    border-radius: 30px;
+}
+.titleCard1{
+    font-size: 30px;
+    font-family: 'Tilt Warp', sans-serif;
+    color: white;
+    font-weight: normal;
+}
+.descricaoCard1{
+    margin-top: 30px;
+    font-family: 'Tilt Warp', sans-serif;
+}
+.bottonCard1{
+    color: #FF914D;
+    text-decoration: none;
+    font-family: 'Tilt Warp', sans-serif;
+}
+.bottonCard1:hover{
+    color: #e54c21;
+}
+.listCard1{
+    margin-top: 30px;
+  
+}
+
+.projetoCard2{
+    border: 2px solid;
+    border-color:gray;
+    padding: 30px 100px 30px 30px ;
+    transition: all 400ms ease;
+  
+}
+
+.projetoCard2:hover{
+    border-color: #FF914D;
+    border-radius: 30px;
+}
+
+
+.titleCard2{
+    font-size: 30px;
+    font-family: 'Tilt Warp', sans-serif;
+    color: white;
+    opacity: 0.1;
+    font-weight: normal;
+   
+}
+.projeto2{
+    transform: rotate(-30deg);
+    padding: 0 140px 0 140px;
+    position: absolute;
+    margin-top: 60px;
+    margin-left: -50px;
+    border-radius: 30px;
+    background-color: rgba(255, 45, 55, 0.7);
+    font-weight: bold;
+    color: #ffffff;
+}
+
+
+.descricaoCard2{
+    margin-top: 30px;
+    font-family: 'Tilt Warp', sans-serif;
+    opacity: 0.1;
+}
+.bottonCard2{
+    color: #FFBD59;
+    text-decoration: none;
+    font-family: 'Tilt Warp', sans-serif;
+    opacity: 0.1;
+}
+.listCard2{
+    margin-top: 30px;
+    
+  
+}
+
+.projetoCard3{
+    border: 2px solid;
+    border-color:gray;
+    padding: 30px 150px 30px 30px ;
+    transition: all 400ms ease;
+  
+}
+
+.projetoCard3:hover{
+    border-color: #FFDE59;
+    border-radius: 30px;
+}
+
+.projeto3{
+    transform: rotate(-31deg);
+    padding: 0 130px 0 140px;
+    position: absolute;
+    margin-top: 60px;
+    margin-left: -50px;
+    border-radius: 30px;
+    background-color: rgba(255, 45, 55, 0.7);
+    font-weight: bold;
+    color: #ffffff;
+}
+.titleCard3{
+    font-size: 30px;
+    font-family: 'Tilt Warp', sans-serif;
+    color: white;
+    font-weight: normal;
+    opacity: 0.1;
+   
+}
+.descricaoCard3{
+    margin-top: 30px;
+    font-family: 'Tilt Warp', sans-serif;
+    opacity: 0.1;
+}
+.bottonCard3{
+    color:#FFDE59;
+    text-decoration: none;
+    font-family: 'Tilt Warp', sans-serif;
+    opacity: 0.1;
+}
+.listCard3{
+    margin-top: 30px;
+  
+}
+
+/*CONTATO*/
+.contato{
+   height: 500px;
+}
+.tituloContato{
+    text-align: center;
+    margin-left: 30px;
+    padding: 3rem 0;
+    font-family: 'Tilt Warp', sans-serif;
+    font-size: 30px;
+   
+}
+form {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 5px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+   
+  }
+  
+  label {
+    display: block;
+    font-weight: bold;
+    margin-bottom: 5px;
+  }
+  
+  input[type="text"],
+  input[type="email"],
+  textarea {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin-bottom: 20px;
+    box-sizing: border-box;
+  }
+  
+  button[type="submit"] {
+    background-color: #007bff;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: all 0.3s ease-in-out;
+  }
+  
+  button[type="submit"]:hover {
+    background-color: #0062cc;
+  }
+
+
+  /*RODAPÉ*/
+
+  footer {
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+  }
+  .container{
+   text-align: center;
+  }
